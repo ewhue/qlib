@@ -1,0 +1,38 @@
+# Qlib演示脚本所需依赖
+# 基础依赖
+numpy>=1.18.0
+pandas>=1.0.0
+scipy>=1.0.0
+scikit-learn>=0.22.0
+
+# 机器学习模型
+lightgbm>=3.0.0
+xgboost>=1.0.0
+
+# 深度学习（可选）
+torch>=1.8.0
+
+# 数据处理和可视化
+matplotlib>=3.0.0
+seaborn>=0.11.0
+
+# 实验管理
+mlflow>=1.20.0
+
+# 日志
+loguru>=0.5.0
+
+# 强化学习（可选）
+gym>=0.18.0
+
+# 缓存和数据库
+redis>=3.5.0
+redis-lock>=3.7.0
+
+# 编译工具
+cython>=0.29.0
+
+# 其他工具
+joblib>=1.0.0
+tqdm>=4.50.0
+pyyaml>=5.4.0
